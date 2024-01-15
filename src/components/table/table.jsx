@@ -61,7 +61,7 @@ function Table() {
             <time className="time">6:30 AM</time>
           </td>
           <td className="table_item">
-            <p className="priority high">HIGH</p>
+            <p className="priority low">LOW</p>
           </td>
         </tr>
         <tr className="table_box">
@@ -101,7 +101,7 @@ function Table() {
             <time className="time">6:30 AM</time>
           </td>
           <td className="table_item">
-            <p className="priority high">HIGH</p>
+            <p className="priority normal">NORMAL</p>
           </td>
         </tr>
         <tr className="table_box">
@@ -141,7 +141,7 @@ function Table() {
             <time className="time">6:30 AM</time>
           </td>
           <td className="table_item">
-            <p className="priority high">HIGH</p>
+            <p className="priority normal">NORMAL</p>
           </td>
         </tr>
         <tr className="table_box">
@@ -161,7 +161,7 @@ function Table() {
             <time className="time">6:30 AM</time>
           </td>
           <td className="table_item">
-            <p className="priority high">HIGH</p>
+            <p className="priority low">LOW</p>
           </td>
         </tr>
         <tr className="table_box">
@@ -181,7 +181,7 @@ function Table() {
             <time className="time">6:30 AM</time>
           </td>
           <td className="table_item">
-            <p className="priority high">HIGH</p>
+            <p className="priority normal">NORMAL</p>
           </td>
         </tr>
       </tbody>

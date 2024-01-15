@@ -39,7 +39,7 @@ letter-spacing: 0.2px;
     align-items: center;
 }
 .user_info {
-    
+    gap: 5px;
 }
 .user_title {
     color:  #252733;
@@ -81,12 +81,19 @@ letter-spacing: 0.2px;
     letter-spacing: 0.2px;
 }
 .priority {
+    text-align: center;
+    max-width: 90px;
+    color: whitesmoke;
+    padding: 5px 12px;
+    border-radius: 15px;
 }
 .high {
+    background-color: #F12B2C;
+
 }
 .low{
-
+    background-color: #FEC400;
 }
 .normal{
-
+    background-color: #29CC97;
 }
