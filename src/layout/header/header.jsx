@@ -2,6 +2,7 @@ import React from 'react';
 import SearchIcon from "../../assets/icon/searchIcon"
 import NotificationIcon from "../../assets/icon/notificationIcon"
 import AvatarImg from "../../assets/img/avatar.png"
+import "./header.css"
 
 function Header() {
     return (
@@ -15,7 +16,7 @@ function Header() {
                 <div className="avatar__box">
                     <a className='avatar_link' href="#">
                     <h2 className='avatar_name'>Jones Ferdinand</h2>
-                    <img src={AvatarImg} alt="avatar_img" />
+                    <img className='avatar_img' src={AvatarImg} alt="avatar_img" />
                     </a>
                 </div>
             </div>

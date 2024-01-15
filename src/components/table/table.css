@@ -1,0 +1,92 @@
+
+
+.main_table {
+    background-color:white;
+    padding: 16px;
+    border-radius: 10px;
+
+}
+.table_title_box_1 {
+    text-align: left;
+}
+.table_title {
+    padding-top: 40px;
+    color:  #9FA2B4;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.2px;
+    
+}
+
+.table_box {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #DFE0EB;
+}
+.user_img{
+    margin-right: 25px;
+    border-radius: 50%;
+
+}
+.table_item{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DFE0EB;
+}
+.table_item_title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.user_info {
+    
+}
+.user_title {
+    color:  #252733;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+}
+.user_date {
+    color:  #9FA2B4;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.user_name {
+    color:  #252733;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}
+.costumer_date {
+    color:  #9FA2B4;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.date {
+    color:  #252733;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}
+.time {
+    color:  #9FA2B4;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.priority {
+}
+.high {
+}
+.low{
+
+}
+.normal{
+
+}

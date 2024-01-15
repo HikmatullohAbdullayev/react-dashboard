@@ -3,12 +3,14 @@ import Header from "../header/header";
 import Footer from "../footer/footer";
 import Table from "../../components/table/table";
 import ArrowIcon from "../../assets/icon/arrowIcon"
+import "./mainLayout.css"
 
 
 function MainLayout() {
   return (
     <>
-      <Header />
+     <div className="wrapper">
+     <Header />
       <main>
         <div className="main__header">
           <div className="main_top">
@@ -16,6 +18,7 @@ function MainLayout() {
             <div className="main_box">
               <p className="sort">Sort</p>
               <p className="filter">Filter</p>
+            </div>
             </div>
             <Table/>
             <div className="main_bottom">
@@ -38,11 +41,12 @@ function MainLayout() {
 
                 </div>
             </div>
-          </div>
+         
             
         </div>
       </main>
       <Footer />
+     </div>
     </>
   );
 }
